@@ -1,0 +1,145 @@
+/*测试样式*/
+
+/*通用属性*/
+body {
+    font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00925F;
+}
+
+/*取消 某些元素 默认的 margin，padding，列表项标志*/
+p, h1, h2, h3, h4, h5, h6, ul, dl, dd, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+.lf {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+#header, #main, #footer {
+    /*宽度，水平居中对齐*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*页面头部信息*/
+#header {
+    height: 35px;
+    background-color: #2CAD6F;
+}
+
+.header-content {
+    width: 1190px;
+}
+
+.header-content ul {
+    margin-left: 196px;
+}
+
+.header-content > ul > li {
+    float: left;
+    line-height: 35px;
+}
+
+.header-content a {
+    color: #FFF;
+    padding: 8px 20px;
+    border-left: 1px solid #58B488;
+    font-size: 14px;
+}
+
+.header-content .border-0 {
+    border: none;
+}
+/*页面主体内容*/
+.border1{
+    width:1000px;
+    height:700px;
+    border:2px solid #2CAD6F;
+    border-radius:10px;
+    margin:80px auto;
+    box-shadow:10px 10px 20px #2CAD6F;
+}
+.border2{
+    width:1000px;
+    height:100px;
+    border-bottom:1px solid #E1E1E1;
+    text-align:center;
+    font-size:24px;
+    color:#393939;
+    line-height:100px;
+}
+/*表单样式*/
+form{
+    background-color: #FBFBFB;
+    width: 322px;
+    min-height: 202px;
+    margin:30px auto;
+}
+input{
+    float:left;
+}
+.code{
+    width: 320px;
+    height: 45px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    margin-top: 20px;
+    transition: border 0.3s linear;
+}
+.code:focus {
+    border: 1px solid #00925F;
+}
+.lf{
+    margin-top:20px;
+    margin-bottom:5px;
+}
+.lf span a{
+    color:#00925F;
+}
+
+/*立即注册*/
+.now-register{
+    width: 320px;
+    height: 45px;
+    border: 1px solid #E2E2E2;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;
+    background: #2CAD6F;
+    margin-top: 25px;
+    cursor: pointer;
+}
+/*页面底部版权*/
+#footer > p {
+    width: 525px;
+    font-size: 15px;
+    color: #7B7B7B;
+    margin: 10px auto;
+}
